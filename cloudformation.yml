@@ -9,6 +9,8 @@ Resources:
       LaunchConfigurationName: "${launch_configuration}"
       MinSize: "${min_size}"
       MaxSize: "${max_size}"
+      CreditSpecification:
+        CpuCredits: "${t_unlimited_type}"
       MetricsCollection:
         - Granularity: 1Minute
           Metrics:
