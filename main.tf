@@ -100,5 +100,6 @@ data "template_file" "main" {
     max_size             = "${var.max_size}"
     subnets              = "${jsonencode(var.subnet_ids)}"
     tags                 = "${jsonencode(data.null_data_source.autoscaling.*.outputs)}"
+    t_unlimited_type     = "${var.t_unlimited_type}"
   }
 }

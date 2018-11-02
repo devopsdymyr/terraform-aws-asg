@@ -96,5 +96,5 @@ variable "tags" {
 
 variable "t_unlimited_type" {
   description = "The credit option for CPU usage of a T2 or T3 instance: standard or unlimited"
-  default = "standard"
+  default     = "standard"
 }
